@@ -2,6 +2,7 @@ namespace Labs
 {
     public class Delegates
     {
+        // Aufgabe 1
         public delegate void Berechnungen(double z1, double z2);
 
         public static void Run(string[] args)
@@ -11,6 +12,7 @@ namespace Labs
             b += Multiplikation;
             b += DivisionsCalculator.Division;
 
+            // Aufgabe 2
             Action<double, double> a = Addition;
             a += Subtraktion;
             a += Multiplikation;
