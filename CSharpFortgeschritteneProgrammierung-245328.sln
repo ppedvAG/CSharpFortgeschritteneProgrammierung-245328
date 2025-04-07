@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_Serialization", "M005_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5SolarSystem", "Lab5SolarSystem\Lab5SolarSystem.csproj", "{D854123C-8271-44E7-9446-FCAA9B54593A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D854123C-8271-44E7-9446-FCAA9B54593A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D854123C-8271-44E7-9446-FCAA9B54593A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D854123C-8271-44E7-9446-FCAA9B54593A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D854123C-8271-44E7-9446-FCAA9B54593A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{B96577CE-4302-4248-BDDE-C2800D2C9DB3} = {5809BB0C-F631-4BA1-8A77-514CC5AA065F}
 		{C0A0B6FC-3842-4676-B448-63E6C3446C6E} = {5809BB0C-F631-4BA1-8A77-514CC5AA065F}
 		{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6} = {4B238A3D-3D81-4FA7-977F-91C7621D02E8}
+		{D854123C-8271-44E7-9446-FCAA9B54593A} = {4B238A3D-3D81-4FA7-977F-91C7621D02E8}
 	EndGlobalSection
 EndGlobal
