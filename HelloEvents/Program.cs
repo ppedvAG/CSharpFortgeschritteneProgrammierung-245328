@@ -38,5 +38,8 @@
             var args = new CourseFinishedEventArgs("Jetzt ist der Kurs fertig");
             CourseFinished?.Invoke(this, args);
         }
+
+        // Vsliznz@ppedv.onmicrosoft.com
+        // (Only!4VS]
     }
 }

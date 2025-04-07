@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DelegateEvents", "M003
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{39EC9745-61F6-48F6-A16F-B283A444CB09}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3Delegates", "Lab3Delegates\Lab3Delegates.csproj", "{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{39EC9745-61F6-48F6-A16F-B283A444CB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39EC9745-61F6-48F6-A16F-B283A444CB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39EC9745-61F6-48F6-A16F-B283A444CB09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{305D0ED3-F893-4A60-A13C-863D71C2F734} = {2A78DD1B-E645-4D44-A427-E78115F7F020}
 		{39EC9745-61F6-48F6-A16F-B283A444CB09} = {2A78DD1B-E645-4D44-A427-E78115F7F020}
+		{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26} = {2A78DD1B-E645-4D44-A427-E78115F7F020}
 	EndGlobalSection
 EndGlobal
