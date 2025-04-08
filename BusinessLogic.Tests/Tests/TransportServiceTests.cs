@@ -117,13 +117,34 @@ public class TransportServiceTests
 
     #endregion
 
+    #region ExportTestResults
+    private static readonly string? _testId = $"{DateTime.Now.Ticks}";
+
+    private string TestResultsFilePath
+    {
+        get
+        {
+            var resultsDir = new DirectoryInfo(TestContext.TestRunDirectory!).Parent;
+            var path = Path.Combine(resultsDir!.FullName, _testId!, TestContext.FullyQualifiedTestClassName!);
+            if (!Directory.Exists(path))
+            {
+                Directory.CreateDirectory(path);
+            }
+            return Path.Combine(path, TestContext.TestName!);
+        }
+    }
+
     private void ExportTestResults<T>(T result)
     {
         var json = JsonSerializer.Serialize(result, new JsonSerializerOptions
         {
             WriteIndented = true
         });
-        var path = Path.Combine(TestContext.TestRunDirectory, TestContext.TestName + ".json");
-        File.WriteAllText(path, json);
-    }
+
+        // doesn't work for any unknown reason anymore
+        //TestContext.AddResultFile(TestResultFilePath);
+
+        File.WriteAllText(TestResultsFilePath + ".json", json);
+    } 
+    #endregion
 }
