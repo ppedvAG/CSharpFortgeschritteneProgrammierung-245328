@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35521.163 d17.12
+VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{305D0ED3-F893-4A60-A13C-863D71C2F734}"
 EndProject
@@ -22,6 +22,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5SolarSystem", "Lab5SolarSystem\Lab5SolarSystem.csproj", "{D854123C-8271-44E7-9446-FCAA9B54593A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M009_Linq", "M009_Linq", "{F1E2B497-51BF-4DBC-BE7E-5A4ACEF7FBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab9Personen", "Lab9Personen\Lab9Personen.csproj", "{87D05170-831F-4732-861C-6C584BE3737E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,14 @@ Global
 		{D854123C-8271-44E7-9446-FCAA9B54593A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D854123C-8271-44E7-9446-FCAA9B54593A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D854123C-8271-44E7-9446-FCAA9B54593A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87D05170-831F-4732-861C-6C584BE3737E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D05170-831F-4732-861C-6C584BE3737E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D05170-831F-4732-861C-6C584BE3737E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D05170-831F-4732-861C-6C584BE3737E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,5 +83,7 @@ Global
 		{C0A0B6FC-3842-4676-B448-63E6C3446C6E} = {5809BB0C-F631-4BA1-8A77-514CC5AA065F}
 		{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6} = {4B238A3D-3D81-4FA7-977F-91C7621D02E8}
 		{D854123C-8271-44E7-9446-FCAA9B54593A} = {4B238A3D-3D81-4FA7-977F-91C7621D02E8}
+		{7A659F1B-3F85-4DA5-BA29-77AC246ACA78} = {F1E2B497-51BF-4DBC-BE7E-5A4ACEF7FBE4}
+		{87D05170-831F-4732-861C-6C584BE3737E} = {F1E2B497-51BF-4DBC-BE7E-5A4ACEF7FBE4}
 	EndGlobalSection
 EndGlobal

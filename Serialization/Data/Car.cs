@@ -21,12 +21,14 @@ namespace Serialization.Data
 
         public string Fuel { get; set; }
 
+        public int TopSpeed { get; set; }
+
         [JsonConverter(typeof(JsonStringEnumConverter))]
         public KnownColor Color { get; set; }
 
         public override string ToString()
         {
-            return $"Id: {Id}, Manufacturer: {Manufacturer}, Model: {Model}, Type: {Type}, Fuel: {Fuel}, Color: {Color}";
+            return $"{Manufacturer,-20} {Model,-20} {Type,-20} {Fuel,-20} {Color,-20} {TopSpeed} km/h max";
         }
 
         public static List<Car> Generate(int count = 20)
@@ -41,6 +43,7 @@ namespace Serialization.Data
                 .RuleFor(c => c.Model, f => f.Vehicle.Model())
                 .RuleFor(c => c.Type, f => f.Vehicle.Type())
                 .RuleFor(c => c.Fuel, f => f.Vehicle.Fuel())
+                .RuleFor(c => c.TopSpeed, f => f.Random.Number(10, 25) * 10)
                 .RuleFor(c => c.Color, f => f.Random.Enum(exclude))
                 .Generate(count);
         }
