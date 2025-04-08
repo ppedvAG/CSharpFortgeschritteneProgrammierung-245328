@@ -14,6 +14,18 @@ namespace BusinessLogic.Services
             _state = "Top Secret";
         }
 
+        public Car CreateCar(string modelName, string brandName)
+        {
+            var car = new Car
+            {
+                Model = modelName,
+                Manufacturer = brandName
+            };
+
+            Add(car);
+            return car;
+        }
+
         public void ShowInfo()
         {
             Console.WriteLine($"Anzahl Elemente: {Data.Count}\tStatus: {_state}");

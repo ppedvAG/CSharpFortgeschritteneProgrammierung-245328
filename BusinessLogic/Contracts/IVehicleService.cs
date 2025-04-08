@@ -1,13 +1,10 @@
-﻿using BusinessLogic.Services;
-using Serialization.Data;
+﻿using Serialization.Data;
 
 namespace BusinessLogic.Contracts
 {
-    public interface IVehicleService
+    public interface IVehicleService : IGenericService<Car>
     {
-        event EventHandler<DataChangedEventArgs<Car>> DataChanged;
-
-        List<Car> Data { get; }
+        Car CreateCar(string modelName, string brandName);
 
         void ShowInfo();
     }

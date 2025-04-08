@@ -17,7 +17,7 @@
             return Data;
         }
 
-        public void AddVehicle(T car)
+        public void Add(T car)
         {
             Data.Add(car);
         }
@@ -30,7 +30,7 @@
             DataChanged?.Invoke(this, new DataChangedEventArgs<T> { OldValue = old, NewValue = car });
         }
 
-        public void RemoveVehicle(T car)
+        public void Remove(T car)
         {
             Data.Remove(car);
         }
