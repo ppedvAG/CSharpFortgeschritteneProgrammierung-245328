@@ -3,67 +3,73 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35521.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{305D0ED3-F893-4A60-A13C-863D71C2F734}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{305D0ED3-F893-4A60-A13C-863D71C2F734}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M003_DelegateEvents", "M003_DelegateEvents", "{2A78DD1B-E645-4D44-A427-E78115F7F020}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{39EC9745-61F6-48F6-A16F-B283A444CB09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloEvents", "HelloEvents\HelloEvents.csproj", "{39EC9745-61F6-48F6-A16F-B283A444CB09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab3Delegates", "Lab3Delegates\Lab3Delegates.csproj", "{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab3Delegates", "Lab3Delegates\Lab3Delegates.csproj", "{EB00A40B-608E-4876-BF3C-9FFFEC3E1D26}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M004_Generics", "M004_Generics", "{5809BB0C-F631-4BA1-8A77-514CC5AA065F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloGenerics", "HelloGenerics\HelloGenerics.csproj", "{B96577CE-4302-4248-BDDE-C2800D2C9DB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloGenerics", "HelloGenerics\HelloGenerics.csproj", "{B96577CE-4302-4248-BDDE-C2800D2C9DB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4SolarSystem", "Lab4SolarSystem\Lab4SolarSystem.csproj", "{C0A0B6FC-3842-4676-B448-63E6C3446C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab4SolarSystem", "Lab4SolarSystem\Lab4SolarSystem.csproj", "{C0A0B6FC-3842-4676-B448-63E6C3446C6E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_Serialization", "M005_Serialization", "{4B238A3D-3D81-4FA7-977F-91C7621D02E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serialization", "Serialization\Serialization.csproj", "{7661D2A7-76E5-439C-8ADB-C219D9FE6FC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5SolarSystem", "Lab5SolarSystem\Lab5SolarSystem.csproj", "{D854123C-8271-44E7-9446-FCAA9B54593A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab5SolarSystem", "Lab5SolarSystem\Lab5SolarSystem.csproj", "{D854123C-8271-44E7-9446-FCAA9B54593A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M009_Linq", "M009_Linq", "{F1E2B497-51BF-4DBC-BE7E-5A4ACEF7FBE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqSamples", "LinqSamples\LinqSamples.csproj", "{7A659F1B-3F85-4DA5-BA29-77AC246ACA78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab9Personen", "Lab9Personen\Lab9Personen.csproj", "{87D05170-831F-4732-861C-6C584BE3737E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab9Personen", "Lab9Personen\Lab9Personen.csproj", "{87D05170-831F-4732-861C-6C584BE3737E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M010_Reflection", "M010_Reflection", "{42819C5C-28EF-4302-851E-BCEF36A12797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{509F2351-7E8F-4D3C-B1B2-59334BF1E0CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reflection", "Reflection\Reflection.csproj", "{509F2351-7E8F-4D3C-B1B2-59334BF1E0CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{BA2114E9-3585-4B0F-AED6-3EFF96582321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{BA2114E9-3585-4B0F-AED6-3EFF96582321}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab10_Calculator", "Lab10_Calculator", "{4FF4BD85-4F3B-4FBE-B579-48E5BD1131EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.App", "Lab10Calculator\Calculator.App\Calculator.App.csproj", "{DC7ECC86-0C8B-456C-9C06-2EFE1989FBDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.App", "Lab10Calculator\Calculator.App\Calculator.App.csproj", "{DC7ECC86-0C8B-456C-9C06-2EFE1989FBDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.PluginBase", "Lab10Calculator\Calculator.PluginBase\Calculator.PluginBase.csproj", "{30EC9DA2-1F7D-4413-970E-A68C3DA85DFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.PluginBase", "Lab10Calculator\Calculator.PluginBase\Calculator.PluginBase.csproj", "{30EC9DA2-1F7D-4413-970E-A68C3DA85DFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator.ArithmeticPlugins", "Lab10Calculator\Calculator.ArithmeticPlugins\Calculator.ArithmeticPlugins.csproj", "{86786A2B-F821-4C72-902E-E88D441D566B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator.ArithmeticPlugins", "Lab10Calculator\Calculator.ArithmeticPlugins\Calculator.ArithmeticPlugins.csproj", "{86786A2B-F821-4C72-902E-E88D441D566B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M012_Testing", "M012_Testing", "{3AAECE4E-9F9F-497B-B038-9F22C0175117}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic.Tests", "BusinessLogic.Tests\BusinessLogic.Tests.csproj", "{C2B30B0B-6B2E-49B5-BC3B-B08B8959BFD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessLogic.Tests", "BusinessLogic.Tests\BusinessLogic.Tests.csproj", "{C2B30B0B-6B2E-49B5-BC3B-B08B8959BFD2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab12TermCalculator", "Lab12TermCalculator", "{6EE4499C-7A58-43D0-9E52-FB8B018CFC25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermCalculator", "TermCalculator\TermCalculator.csproj", "{DD92A11B-2F73-48ED-8A4B-1B5EDB1E63A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TermCalculator", "TermCalculator\TermCalculator.csproj", "{DD92A11B-2F73-48ED-8A4B-1B5EDB1E63A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermCalculator.Tests", "TermCalculator.Tests\TermCalculator.Tests.csproj", "{C422AE02-A8EC-4CBD-B7CE-340BC13086F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TermCalculator.Tests", "TermCalculator.Tests\TermCalculator.Tests.csproj", "{C422AE02-A8EC-4CBD-B7CE-340BC13086F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M006_Threads", "M006_Threads", "{19523089-49B4-4C6E-B771-1C3EF3F103C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadConcurrency", "ThreadConcurrency\ThreadConcurrency.csproj", "{015ACFB1-99F2-45D2-B967-81C5B33E345E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadConcurrency", "ThreadConcurrency\ThreadConcurrency.csproj", "{015ACFB1-99F2-45D2-B967-81C5B33E345E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M007_TPL", "M007_TPL", "{D1663950-BCF9-4F1C-8273-972AE7F13F78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL_Multitasking", "TPL_Multitasking\TPL_Multitasking.csproj", "{0AF393A1-E012-4D55-9683-E9E04A7E5104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TPL_Multitasking", "TPL_Multitasking\TPL_Multitasking.csproj", "{0AF393A1-E012-4D55-9683-E9E04A7E5104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7_Images", "Lab7_Images\Lab7_Images.csproj", "{F4F8196C-A22B-4092-9375-1CA2E24E35EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab7_Images", "Lab7_Images\Lab7_Images.csproj", "{F4F8196C-A22B-4092-9375-1CA2E24E35EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab7_ImagesDeluxe", "Lab7_ImagesDeluxe\Lab7_ImagesDeluxe.csproj", "{06709F67-C36C-4FF7-BF19-93F8D4F43826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab7_ImagesDeluxe", "Lab7_ImagesDeluxe\Lab7_ImagesDeluxe.csproj", "{06709F67-C36C-4FF7-BF19-93F8D4F43826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M008_TPLAsyncAwait", "M008_TPLAsyncAwait", "{D5B9EA23-CCE5-4907-AEDD-5F375188A8E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL_Multitasking.Wpf", "TPL_Multitasking.Wpf\TPL_Multitasking.Wpf.csproj", "{9196C43B-7EC7-43FA-BB98-54E720E01760}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab8_JsonSplit.Wpf", "Lab8_JsonSplit.Wpf\Lab8_JsonSplit.Wpf.csproj", "{1A136BB1-E355-4EC0-BBA8-74613A618D03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,6 +161,14 @@ Global
 		{06709F67-C36C-4FF7-BF19-93F8D4F43826}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06709F67-C36C-4FF7-BF19-93F8D4F43826}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06709F67-C36C-4FF7-BF19-93F8D4F43826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9196C43B-7EC7-43FA-BB98-54E720E01760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9196C43B-7EC7-43FA-BB98-54E720E01760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9196C43B-7EC7-43FA-BB98-54E720E01760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9196C43B-7EC7-43FA-BB98-54E720E01760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A136BB1-E355-4EC0-BBA8-74613A618D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A136BB1-E355-4EC0-BBA8-74613A618D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A136BB1-E355-4EC0-BBA8-74613A618D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A136BB1-E355-4EC0-BBA8-74613A618D03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -182,5 +196,10 @@ Global
 		{0AF393A1-E012-4D55-9683-E9E04A7E5104} = {D1663950-BCF9-4F1C-8273-972AE7F13F78}
 		{F4F8196C-A22B-4092-9375-1CA2E24E35EB} = {D1663950-BCF9-4F1C-8273-972AE7F13F78}
 		{06709F67-C36C-4FF7-BF19-93F8D4F43826} = {D1663950-BCF9-4F1C-8273-972AE7F13F78}
+		{9196C43B-7EC7-43FA-BB98-54E720E01760} = {D5B9EA23-CCE5-4907-AEDD-5F375188A8E2}
+		{1A136BB1-E355-4EC0-BBA8-74613A618D03} = {D5B9EA23-CCE5-4907-AEDD-5F375188A8E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E89FB87-7A9E-407E-84E0-21D51E6B8F8D}
 	EndGlobalSection
 EndGlobal
