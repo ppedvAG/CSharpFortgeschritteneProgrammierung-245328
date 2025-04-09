@@ -2,7 +2,7 @@
 
 namespace BusinessLogic.Contracts
 {
-    public interface IVehicleService : IGenericService<Car>
+    public interface IVehicleService : IGenericService<Car>, IDataService<Car>
     {
         Car CreateCar(string modelName, string brandName);
 

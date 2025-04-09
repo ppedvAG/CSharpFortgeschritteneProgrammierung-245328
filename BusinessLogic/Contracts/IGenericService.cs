@@ -1,4 +1,6 @@
-﻿namespace BusinessLogic.Contracts
+﻿using Serialization.Data;
+
+namespace BusinessLogic.Contracts
 {
     public interface IGenericService<T>
     {

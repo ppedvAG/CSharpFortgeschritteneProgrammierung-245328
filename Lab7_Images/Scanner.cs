@@ -6,10 +6,27 @@
 /// Es soll auch sicher gestellt werden, das bereits gescannte/verarbeitete Images nicht doppelt gescannt/verarbeitet werden.
 /// Der Benutzer soll die Möglichkeit haben, mehrere Scanner zu Erstellen und dadurch mehrere Ordner gleichzeitig zu Verarbeiten.
 /// </summary>
-public class Scanner
+public class Scanner : Runnable
 {
-    public Scanner()
-    {
-        
-    }
+	private string scanPath;
+
+	public Scanner(string scanPath)
+	{
+		this.scanPath = scanPath;
+        CurrentTask = new Task(Run);
+	}
+
+	protected override void Run()
+	{
+		while (true)
+		{
+			string[] imagePaths = Directory.GetFiles(scanPath);
+
+			foreach (string p in imagePaths)
+				if (!Program.ImagePaths.Contains(p))
+					Program.ImagePaths.Enqueue(p);
+
+			Thread.Sleep(1000);
+		}
+	}
 }

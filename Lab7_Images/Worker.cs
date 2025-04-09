@@ -8,11 +8,28 @@ namespace TPL_Uebung;
 /// Falls diese Queue nicht leer ist, soll der Worker seine Arbeit beginnen. Diese Arbeit soll in einem Task durchgeführt werden.
 /// Die Arbeit ist hier die Verarbeitung der Images über die ProcessImage Methode.
 /// </summary>
-public class Worker
+public class Worker : Runnable
 {
-    public Worker()
-    {
+    public string OutputPath { get; }
 
+    public Worker(string outputPath)
+	{
+		CurrentTask = new Task(Run);
+        OutputPath = outputPath;
+    }
+
+    protected override void Run()
+	{
+		while (true)
+		{
+			if (Program.ImagePaths.TryDequeue(out string path))
+			{
+				Console.WriteLine($"Processing image: {path}");
+				ProcessImage(path, $"{OutputPath}\\{path.Replace("Images", "")}");
+				File.Delete(path);
+				Console.WriteLine($"Processed image: {path}");
+			}
+		}
 	}
 
     /// <summary>
@@ -22,19 +39,19 @@ public class Worker
     /// </summary>
     [SupportedOSPlatform("windows")] //Warnings entfernen
     private void ProcessImage(string loadPath, string savePath)
-    {
-        Bitmap img = new Bitmap(loadPath);
-        Bitmap output = new Bitmap(img.Width, img.Height);
-        for (int i = 0; i < img.Width; i++)
-        {
-            for (int j = 0; j < img.Height; j++)
-            {
-                Color currentPixel = img.GetPixel(i, j);
-                int grayScale = (int)(currentPixel.R * 0.3 + currentPixel.G * 0.59 + currentPixel.B * 0.11);
-                Color newColor = Color.FromArgb(currentPixel.A, grayScale, grayScale, grayScale);
-                output.SetPixel(i, j, newColor);
-            }
-        }
-        output.Save(savePath); //Dateiname nicht vergessen
+	{
+		using Bitmap img = new Bitmap(loadPath);
+		using Bitmap output = new Bitmap(img.Width, img.Height);
+		for (int i = 0; i < img.Width; i++)
+		{
+			for (int j = 0; j < img.Height; j++)
+			{
+				Color currentPixel = img.GetPixel(i, j);
+				int grayScale = (int) (currentPixel.R * 0.3 + currentPixel.G * 0.59 + currentPixel.B * 0.11);
+				Color newColor = Color.FromArgb(currentPixel.A, grayScale, grayScale, grayScale);
+				output.SetPixel(i, j, newColor);
+			}
+		}
+		output.Save(savePath); //Dateiname nicht vergessen
     }
 }
