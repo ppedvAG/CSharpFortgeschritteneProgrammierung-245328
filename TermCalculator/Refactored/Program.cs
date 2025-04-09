@@ -1,4 +1,6 @@
-﻿namespace TermCalculator.Refactored
+﻿using UnitConverter.UI;
+
+namespace TermCalculator.Refactored
 {
     public enum CalcOperation { Addition = 1, Subtraction, Multiplication, Division }
 
@@ -6,24 +8,31 @@
     {
         public static void Main(string[] args)
         {
+            Run(new ConsoleWrapper());
+        }
+
+        public static void Run(IConsole console)
+        {
             try
             {
-                var input = GetInput();
+                var input = GetInput(console);
                 var term = new Term(input);
                 var result = term.Parse().Calculate();
 
-                Console.WriteLine($"\t={result}");
+                console.WriteLine($"\t={result}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Fehler: {ex.Message}");
+                console.WriteLine($"Fehler: {ex.Message}");
             }
         }
 
-        public static string GetInput()
+        public static string GetInput(IConsole console)
         {
-            Console.WriteLine("Bitte gib einen Term mit zwei Zahlen und einem Grundrechenoperator (+ - * /) ein (z.B.: 25+13):");
-            return Console.ReadLine() ?? throw new ArgumentNullException("Eingabe darf nicht null sein.");
+            console.WriteLine("Bitte gib einen Term mit zwei Zahlen und einem Grundrechenoperator (+ - * /) ein (z.B.: 25+13):");
+            return console.ReadLine() ?? throw new ArgumentNullException("Eingabe darf nicht null sein.");
         }
     }
+
+
 }
