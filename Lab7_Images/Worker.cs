@@ -20,7 +20,7 @@ public class Worker : Runnable
 
     protected override void Run()
 	{
-		while (true)
+		while (Continue)
 		{
 			if (Program.ImagePaths.TryDequeue(out string path))
 			{

@@ -18,7 +18,7 @@ public class Scanner : Runnable
 
 	protected override void Run()
 	{
-		while (true)
+		while (Continue)
 		{
 			string[] imagePaths = Directory.GetFiles(scanPath);
 

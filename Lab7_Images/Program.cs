@@ -108,7 +108,6 @@ internal class Program
 
         if (!Workers.Any())
         {
-            Scanners.ForEach(s => s.Start());
             SetWorkerCount(DefaultWorkerCount);
         }
 
