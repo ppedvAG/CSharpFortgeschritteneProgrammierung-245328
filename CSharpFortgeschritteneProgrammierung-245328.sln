@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermCalculator", "TermCalcu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermCalculator.Tests", "TermCalculator.Tests\TermCalculator.Tests.csproj", "{C422AE02-A8EC-4CBD-B7CE-340BC13086F6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M006_Threads", "M006_Threads", "{19523089-49B4-4C6E-B771-1C3EF3F103C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadConcurrency", "ThreadConcurrency\ThreadConcurrency.csproj", "{015ACFB1-99F2-45D2-B967-81C5B33E345E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,10 @@ Global
 		{C422AE02-A8EC-4CBD-B7CE-340BC13086F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C422AE02-A8EC-4CBD-B7CE-340BC13086F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C422AE02-A8EC-4CBD-B7CE-340BC13086F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015ACFB1-99F2-45D2-B967-81C5B33E345E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015ACFB1-99F2-45D2-B967-81C5B33E345E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015ACFB1-99F2-45D2-B967-81C5B33E345E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015ACFB1-99F2-45D2-B967-81C5B33E345E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,5 +158,6 @@ Global
 		{6EE4499C-7A58-43D0-9E52-FB8B018CFC25} = {3AAECE4E-9F9F-497B-B038-9F22C0175117}
 		{DD92A11B-2F73-48ED-8A4B-1B5EDB1E63A0} = {6EE4499C-7A58-43D0-9E52-FB8B018CFC25}
 		{C422AE02-A8EC-4CBD-B7CE-340BC13086F6} = {6EE4499C-7A58-43D0-9E52-FB8B018CFC25}
+		{015ACFB1-99F2-45D2-B967-81C5B33E345E} = {19523089-49B4-4C6E-B771-1C3EF3F103C7}
 	EndGlobalSection
 EndGlobal
